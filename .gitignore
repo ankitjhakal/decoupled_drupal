@@ -138,3 +138,6 @@ web/.gitignore
 #Ignore minified files from custom modules folder
 web/modules/custom/build/*
 !web/modules/custom/build/.gitkeep
+
+# Ignore dev js files.
+web/themes/react_example_theme/js/dist_dev

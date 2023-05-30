@@ -1,0 +1,20 @@
+uuid: 06768289-f888-4c2c-8260-023e2a5d1735
+langcode: en
+status: true
+dependencies: {  }
+id: development
+label: development
+description: 'Configuration only for local environment.'
+weight: 0
+folder: ../config/split/development
+module:
+  admin_toolbar: 0
+  dblog: 0
+  field_ui: 0
+  menu_ui: 0
+  views_ui: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

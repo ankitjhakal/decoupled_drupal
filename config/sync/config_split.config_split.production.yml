@@ -1,0 +1,15 @@
+uuid: 6437c334-fc85-4c10-bbdf-088acb1ecdad
+langcode: en
+status: true
+dependencies: {  }
+id: production
+label: production
+description: 'Configurations for production environment.'
+weight: 0
+folder: ../config/split/production
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

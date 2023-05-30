@@ -140,4 +140,4 @@ web/modules/custom/build/*
 !web/modules/custom/build/.gitkeep
 
 # Ignore dev js files.
-web/themes/react_example_theme/js/dist_dev
+web/themes/custom/react_example_theme/js/dist_dev

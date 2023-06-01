@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Contains decoupled_core.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function decoupled_core_theme() {
+  return [
+    'node_read_write_block' => [
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+}

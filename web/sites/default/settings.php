@@ -780,7 +780,7 @@ if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 
 # }
 
 $settings['config_sync_directory'] = '../config/sync';
-$config['config_split.config_split.development']['status'] = TRUE;
-$config['config_split.config_split.production']['status'] = FALSE;
+$config['config_split.config_split.development']['status'] = FALSE;
+$config['config_split.config_split.production']['status'] = TRUE;
 $conf['error_level'] = 1;
 $config['system.logging']['error_level'] = 'verbose';

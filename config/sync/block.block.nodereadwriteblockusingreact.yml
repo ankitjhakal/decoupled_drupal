@@ -1,0 +1,25 @@
+uuid: ef6c61e5-a04e-46d6-8c26-08e680fa5854
+langcode: en
+status: true
+dependencies:
+  module:
+    - decoupled_core
+    - system
+  theme:
+    - react_example_theme
+id: nodereadwriteblockusingreact
+theme: react_example_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: node_read_write_block
+settings:
+  id: node_read_write_block
+  label: 'Node Read Write Block Using React'
+  label_display: visible
+  provider: decoupled_core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: ''

@@ -1,6 +1,6 @@
 uuid: e1b4c3d2-daa5-416f-89ad-d53eabd49593
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -10,7 +10,7 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: react_example_theme_help
 theme: react_example_theme
-region: sidebar_first
+region: header
 weight: 0
 provider: null
 plugin: help_block

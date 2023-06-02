@@ -7,12 +7,7 @@ label: development
 description: 'Configuration only for local environment.'
 weight: 0
 folder: ../config/split/development
-module:
-  admin_toolbar: 0
-  dblog: 0
-  field_ui: 0
-  menu_ui: 0
-  views_ui: 0
+module: {  }
 theme: {  }
 blacklist: {  }
 graylist: {  }

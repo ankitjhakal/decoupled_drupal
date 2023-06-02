@@ -7,7 +7,14 @@ label: production
 description: 'Configurations for production environment.'
 weight: 0
 folder: ../config/split/production
-module: {  }
+module:
+  admin_toolbar: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
+  dblog: 0
+  field_ui: 0
+  menu_ui: 0
+  views_ui: 0
 theme: {  }
 blacklist: {  }
 graylist: {  }

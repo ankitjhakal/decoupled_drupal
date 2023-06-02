@@ -1,0 +1,18 @@
+uuid: fe3725a8-8262-4093-b377-afef53d1386e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - node
+id: oauth
+label: OAUTH
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'create article content'
+  - 'delete any article content'
+  - 'edit any article content'
+  - 'view own unpublished content'
